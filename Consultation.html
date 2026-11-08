@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درخواست مشاوره حقوقی| Shahin Kouhi</title>
+
+
+    <meta name="description" content="برای دریافت مشاوره حقوقی در یاسوج، درخواست خود را ثبت کنید. شاهین کوهی، ارائه‌دهنده خدمات مشاوره در زمینه دعاوی بیمه، خسارت خودرو، امور خانوادگی و ملکی.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fa_IR">
+    <meta property="og:title" content="درخواست مشاوره حقوقی | شاهین کوهی">
+    <meta property="og:description" content="ثبت درخواست مشاوره حقوقی در زمینه امور بیمه‌ای، خانوادگی و ملکی در یاسوج.">
+    <meta property="og:site_name" content="شاهین کوهی">
+
+
+
+    <link rel="icon" type="image/png" href="Data/Fav/Demo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/consultation.css">
+    <script defer src="./js/consultation.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1 style="color: lightgray;">درخواست مشاوره حقوقی</h1>
+        <h3>هزینه هر جلسه مشاوره حقوقی :</h3>
+        <strong> ۲٬۰۰۰٬۰۰۰ تومان </strong>
+    </header>
+    
+    <section class="consultation">
+        <form action="" autocomplete="off">
+            <label for="input">نام کامل شما<span style="color: red;">*</span> :</label>
+
+            <div class="about-user">
+                <input type="text" id="user-name" name="username" placeholder="نام">
+                <input type="text" id="user-lastname" name="userlastname" placeholder="نام خانوادگی">
+            </div>
+
+            <label for="input">شماره تلفن<span style="color: red;">*</span> :</label>
+
+            <div>
+                <input type="number" id="user-phone" name="phonenumber" placeholder="شماره تلفن">
+            </div>
+
+            <label for="input">موضوع مشاوره<span style="color: red;">*</span> :</label>
+
+            <div>
+                <select name="subject-consultation" id="subject-consultation">
+
+                    <optgroup label="دعاوی ها">
+                        <option value="بیمه عمر و حوادث">بیمه عمر و حوادث</option>
+                        <option value="اختلافات بیمه شخص ثالث">اختلافات بیمه شخص ثالث</option>
+                        <option value="تصادفات و خسارت خودرو">تصادفات و خسارت خودرو</option>
+                        <option value="مطالبه خسارت بیمه">مطالبه خسارت بیمه</option>
+                    </optgroup>
+
+                </select>
+            </div>
+
+            <label for="input">شرح مختصر موضوع<span style="color: red;">*</span> :</label>
+
+            <textarea name="user-credential" id="user-credential" placeholder="موضوع و نکات ضروری را به اختصار شرح دهید." ></textarea>
+
+            <label class="container">
+با ثبت و ارسال این فرم تأیید می‌کنم که تقاضای مشاوره حقوقی دارم و آگاه هستم که دریافت مشاوره حقوقی مستلزم پرداخت حق‌المشاوره‌ای است که اعلام شده.
+                <input type="checkbox" id="rls">
+                <span class="checkmark"></span>
+            </label>
+
+            <div>
+                <input type="submit" id="send" value="ثبت و ارسال">
+            </div>
+        </form>
+    </section>
+
+
+    <div class="modal hidden">
+        <div class="content">
+            <p class="send-form">ارسال فرم از طریق</p>
+            <div class="links">
+
+                <a href="https://ble.ir/09120365355" target="_blank"><img src="./Data/Footer/links/bale-link.png" alt="درخواست مشاوره از طریق بله">  برای فرستادن جزئیات فرم در بله، فقط کافیه در قسمت تایپ پیست کنید <span class="bi bi-arrow-left"></span></a>
+                <a href="https://wa.me/989120365355" target="_blank"><img src="./Data/Footer/links/whatsapp-link.png" alt="درخواست مشاوره از طریق واتساپ">  <span class="bi bi-arrow-left"></span></a>
+                    
+            </div>
+            <p class="notif">اطلاعات فرم بصورت پیام آماده در پیام رسان قرار می‌گیرد.</p>
+        </div>
+    </div>
+
+
+     
+</body>
+</html>
